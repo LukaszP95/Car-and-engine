@@ -32,7 +32,6 @@ Program powinien wyświetlać odpowiednie komunikaty informujące o działaniach
 
 class Engine:
 
-
     def __init__(self):
         self.is_running = False
         self.speed = 0
@@ -70,6 +69,7 @@ class Engine:
 
 
 class Car:
+    
     def __init__(self):
         self.engine = Engine()
 
