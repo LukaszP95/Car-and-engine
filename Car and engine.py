@@ -1,35 +1,3 @@
-"""Napisz program w języku Python, który będzie symulował działanie samochodu z silnikiem. Program powinien spełniać poniższe wymagania:
-
-Stwórz klasę Engine reprezentującą silnik. Klasa powinna mieć:
-
-Atrybuty:
-+ is_running - informujący, czy silnik jest włączony (początkowo False).
-+ speed - reprezentujący prędkość obrotową silnika (początkowo 0).
-Metody:
-- start() - włącza silnik i ustawia prędkość na 0.
-- stop() - wyłącza silnik i resetuje prędkość.
-- increase_speed(amount) - zwiększa prędkość obrotową o podaną wartość.
-- decrease_speed(amount) - zmniejsza prędkość obrotową o podaną wartość, ale prędkość nie może spaść poniżej 0.
-
-Stwórz klasę Car reprezentującą samochód. Klasa powinna:
-
-Atrybuty
-+ Zawierać obiekt klasy Engine jako swój atrybut.
-Metody
-- Włączania silnika (start_engine()).
-- Wyłączania silnika (stop_engine()).
-- Przyspieszania samochodu poprzez zwiększanie prędkości silnika (accelerate(amount)).
-- Zwalniania samochodu poprzez zmniejszanie prędkości silnika (decelerate(amount)).
-
-W głównej części programu:
-- Stwórz obiekt klasy Car.
-- Włącz silnik samochodu.
-- Zwiększ prędkość silnika dwukrotnie różnymi wartościami.
-- Zmniejsz prędkość silnika dwukrotnie różnymi wartościami.
-- Wyłącz silnik.
-
-Program powinien wyświetlać odpowiednie komunikaty informujące o działaniach (np. „Engine started.”, „Engine speed increased to 500 RPM.”, itp.)."""
-
 class Engine:
 
     def __init__(self):
